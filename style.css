@@ -1,0 +1,267 @@
+.body {
+    font-family: sans-serif;
+}
+.title-1111 {
+    color: rgb(226, 224, 88);
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    height: 50px;
+}
+.nav a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+.header {
+    background-color: #163b53;
+    height: 150px;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+}
+.header-info span {
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    color: #ffffff;
+}
+.header-info button {
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: rgb(245, 253, 236);
+    padding: 10px;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: 900;
+}
+.header-info button:hover {
+    background-color: rgb(17, 20, 13);
+    color: #ffffff;
+}
+.header-buttom {
+    padding: 15px 0;
+    position: relative;
+    bottom: 50px;
+}
+.header-buttom .nav {
+    font-size: 16px;
+    margin: 0;
+}
+.banner {
+    background-image: url(./68139761-geometry-wallpapers_2048x1152.jpg.66a1bf5f432f785cf43c8b4c8a9493a4\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: relative;
+    top: -150px;
+    bottom: 150px;
+    color: azure;
+    height: 400px;  
+}
+.btn {
+    color: rgb(19, 24, 24);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    border: 1px solid rgb(25, 22, 27);
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+    font-weight: 900;
+}
+.bg-white {
+    background-image: url(./orig.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    bottom: 2px;
+    top: -20px;
+    height: 340px;
+    border-radius: 20px;
+}
+.rasm {
+    width: 200px;
+    height: 200px;
+}
+.bg-green {
+    background-color: rgb(114, 185, 55);
+    color: rgb(245, 253, 236);
+    padding: 40px 30px; 
+}
+.bg-green h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0 30px;
+}
+.grid-item-title {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.grid-item-img {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.grid-item-left {
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.grid-item-right {
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.grid-item-cotalog {
+    text-align: center;
+}
+.grid-item-cotalog .bg-white {
+    padding: 15px 30px;
+}
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.grid-btn {
+    border-radius: 20px;
+    border: 2px solid rgb(245, 235, 235);
+    background-color: rgb(238, 232, 243);
+    color: rgb(24, 16, 16);
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.title-h2 {
+    position: relative;
+    bottom: 40px;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 40px;
+}
+.footer-buttom {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-buttom p {
+    position: relative;
+    top: 20px;
+    color: cornsilk;
+}
+.footer-buttom a {
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+.bbb {
+    display: flex;
+    list-style: none;
+}
+.social-link {
+    display: block;
+    border: 2px solid rgb(15, 13, 12);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 70px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    top: 10px;
+}
+.wrapper-poq {
+    background-color: rgb(224, 181, 181);
+    height: 100px;
+}
+.sss a {
+    position: relative;
+    bottom: 20px;
+}
+.video {
+    width: 1000px;
+    height: 300px;
+}
+.sp {
+    position: relative;
+    right: 100px;
+}
+.bttt {
+    position: relative;
+    right: 90px;
+}
+.btn:hover {
+    background-color: rgb(24, 27, 23);
+    color: #ffffff;
+    font-weight: 900;
+}
+.ddd {
+    font-size: 30px;
+}
+.grid-btn:hover {
+    background-color: rgb(15, 13, 12);
+    color: rgb(245, 235, 235);
+}
+.grid-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(7, 10, 9);
+    position: relative;
+    top: 10px;
+}
+.grid-title:hover {
+    color: #ffffff;
+}
+
+
+
+
+
